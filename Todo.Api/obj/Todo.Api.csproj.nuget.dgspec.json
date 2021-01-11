@@ -25,7 +25,14 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/jairodrigues/estudos/Todo/Todo.Domain/Todo.Domain.csproj": {
+                "projectPath": "/home/jairodrigues/estudos/Todo/Todo.Domain/Todo.Domain.csproj"
+              },
+              "/home/jairodrigues/estudos/Todo/Todo.Infra/Todo.Infra.csproj": {
+                "projectPath": "/home/jairodrigues/estudos/Todo/Todo.Infra/Todo.Infra.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -71,6 +78,120 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jairodrigues/estudos/Todo/Todo.Domain/Todo.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jairodrigues/estudos/Todo/Todo.Domain/Todo.Domain.csproj",
+        "projectName": "Todo.Domain",
+        "projectPath": "/home/jairodrigues/estudos/Todo/Todo.Domain/Todo.Domain.csproj",
+        "packagesPath": "/home/jairodrigues/.nuget/packages/",
+        "outputPath": "/home/jairodrigues/estudos/Todo/Todo.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jairodrigues/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jairodrigues/estudos/Todo/Todo.Infra/Todo.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jairodrigues/estudos/Todo/Todo.Infra/Todo.Infra.csproj",
+        "projectName": "Todo.Infra",
+        "projectPath": "/home/jairodrigues/estudos/Todo/Todo.Infra/Todo.Infra.csproj",
+        "packagesPath": "/home/jairodrigues/.nuget/packages/",
+        "outputPath": "/home/jairodrigues/estudos/Todo/Todo.Infra/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jairodrigues/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/jairodrigues/estudos/Todo/Todo.Domain/Todo.Domain.csproj": {
+                "projectPath": "/home/jairodrigues/estudos/Todo/Todo.Domain/Todo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

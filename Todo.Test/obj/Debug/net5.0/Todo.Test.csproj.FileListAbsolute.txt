@@ -95,3 +95,6 @@
 /home/jairodrigues/estudos/Todo/Todo.Test/obj/Debug/net5.0/ref/Todo.Test.dll
 /home/jairodrigues/estudos/Todo/Todo.Test/obj/Debug/net5.0/Todo.Test.pdb
 /home/jairodrigues/estudos/Todo/Todo.Test/obj/Debug/net5.0/Todo.Test.genruntimeconfig.cache
+/home/jairodrigues/estudos/Todo/Todo.Test/bin/Debug/net5.0/Flunt.dll
+/home/jairodrigues/estudos/Todo/Todo.Test/bin/Debug/net5.0/Todo.Domain.dll
+/home/jairodrigues/estudos/Todo/Todo.Test/bin/Debug/net5.0/Todo.Domain.pdb

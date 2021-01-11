@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Flunt/1.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.1": {
         "type": "package",
         "dependencies": {
@@ -203,10 +212,48 @@
             "rid": "win"
           }
         }
+      },
+      "Todo.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "flunt": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/Todo.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Todo.Domain.dll": {}
+        }
+      },
+      "Todo.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Todo.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Todo.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Todo.Infra.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Flunt/1.0.5": {
+      "sha512": "2p1B/LLsMf0bGwyMQK48/278OXTodXn3HyTU1v7fr/x0bNfrVSNC1Do1PxbgiOlDLChtAbtt1kPgXFqUnGAagg==",
+      "type": "package",
+      "path": "flunt/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flunt.1.0.5.nupkg.sha512",
+        "flunt.nuspec",
+        "lib/netstandard2.0/Flunt.dll"
+      ]
+    },
     "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.1": {
       "sha512": "BGCA7V2+x6gjzZcOLfn1UYTicTBbK1kMVsoV56qiVc2+zpdEc62YPbLCC7jBUpjCeS9w/5FkGMkjvtwCarH7hg==",
       "type": "package",
@@ -576,13 +623,25 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Todo.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Todo.Domain/Todo.Domain.csproj",
+      "msbuildProject": "../Todo.Domain/Todo.Domain.csproj"
+    },
+    "Todo.Infra/1.0.0": {
+      "type": "project",
+      "path": "../Todo.Infra/Todo.Infra.csproj",
+      "msbuildProject": "../Todo.Infra/Todo.Infra.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.1",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 5.0.1",
-      "Swashbuckle.AspNetCore >= 5.6.3"
+      "Swashbuckle.AspNetCore >= 5.6.3",
+      "Todo.Domain >= 1.0.0",
+      "Todo.Infra >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -609,7 +668,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/jairodrigues/estudos/Todo/Todo.Domain/Todo.Domain.csproj": {
+              "projectPath": "/home/jairodrigues/estudos/Todo/Todo.Domain/Todo.Domain.csproj"
+            },
+            "/home/jairodrigues/estudos/Todo/Todo.Infra/Todo.Infra.csproj": {
+              "projectPath": "/home/jairodrigues/estudos/Todo/Todo.Infra/Todo.Infra.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

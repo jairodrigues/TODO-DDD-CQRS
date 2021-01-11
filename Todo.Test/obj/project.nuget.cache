@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "bcmX5Xw4WVbYDKxiQC4+K0cfYLcQtQL9aWJBh+gBdQdpaeufCZD/ztyzbaE95VVg87+rzpEHIVsYqR8Ce/n3wg==",
+  "dgSpecHash": "WzXNd8yADTK7F0OC5NiyGHz0wdfjydQ9SrGLAECh/jruSU7WIfSogF8yrrah3yek1DgTW8Xdtd1APyWuGQ8hPQ==",
   "success": true,
   "projectFilePath": "/home/jairodrigues/estudos/Todo/Todo.Test/Todo.Test.csproj",
   "expectedPackageFiles": [
     "/home/jairodrigues/.nuget/packages/coverlet.collector/1.3.0/coverlet.collector.1.3.0.nupkg.sha512",
+    "/home/jairodrigues/.nuget/packages/flunt/1.0.5/flunt.1.0.5.nupkg.sha512",
     "/home/jairodrigues/.nuget/packages/microsoft.codecoverage/16.7.1/microsoft.codecoverage.16.7.1.nupkg.sha512",
     "/home/jairodrigues/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
     "/home/jairodrigues/.nuget/packages/microsoft.net.test.sdk/16.7.1/microsoft.net.test.sdk.16.7.1.nupkg.sha512",
