@@ -1,0 +1,12 @@
+/home/jairodrigues/estudos/Todo/Todo.Infra/bin/Debug/net5.0/Todo.Infra.deps.json
+/home/jairodrigues/estudos/Todo/Todo.Infra/bin/Debug/net5.0/Todo.Infra.dll
+/home/jairodrigues/estudos/Todo/Todo.Infra/bin/Debug/net5.0/ref/Todo.Infra.dll
+/home/jairodrigues/estudos/Todo/Todo.Infra/bin/Debug/net5.0/Todo.Infra.pdb
+/home/jairodrigues/estudos/Todo/Todo.Infra/obj/Debug/net5.0/Todo.Infra.csprojAssemblyReference.cache
+/home/jairodrigues/estudos/Todo/Todo.Infra/obj/Debug/net5.0/Todo.Infra.GeneratedMSBuildEditorConfig.editorconfig
+/home/jairodrigues/estudos/Todo/Todo.Infra/obj/Debug/net5.0/Todo.Infra.AssemblyInfoInputs.cache
+/home/jairodrigues/estudos/Todo/Todo.Infra/obj/Debug/net5.0/Todo.Infra.AssemblyInfo.cs
+/home/jairodrigues/estudos/Todo/Todo.Infra/obj/Debug/net5.0/Todo.Infra.csproj.CoreCompileInputs.cache
+/home/jairodrigues/estudos/Todo/Todo.Infra/obj/Debug/net5.0/Todo.Infra.dll
+/home/jairodrigues/estudos/Todo/Todo.Infra/obj/Debug/net5.0/ref/Todo.Infra.dll
+/home/jairodrigues/estudos/Todo/Todo.Infra/obj/Debug/net5.0/Todo.Infra.pdb
