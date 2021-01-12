@@ -108,6 +108,10 @@
               "target": "Package",
               "version": "[2.1.1, )"
             },
+            "Microsoft.EntityFrameworkCore.inMemory": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.7.1, )"
